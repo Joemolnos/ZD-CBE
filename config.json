@@ -1,0 +1,19 @@
+{
+  "vocab_size": 28,
+  "embed_dim": 128,
+  "hidden_dim": 256,
+  "num_vq_codes": 64,
+  "num_layers": 2,
+  "learning_rate": 0.001,
+  "dream_steps": 5000,
+  "awakening_epochs": 100,
+  "batch_size": 32,
+  "task_type": "addition",
+  "max_digits": 2,
+  "population_size": 5,
+  "mutation_rate": 0.01,
+  "evolution_interval": 100,
+  "visualization_interval": 10,
+  "max_sequence_length": 100,
+  "awakening_lr": 0.001
+}
