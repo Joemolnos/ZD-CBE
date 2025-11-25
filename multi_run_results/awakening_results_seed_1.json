@@ -2,8 +2,8 @@
   "dreamer_performance": [],
   "tabula_performance": [],
   "comparison": {
-    "loss_improvement": -1.7372576594352722,
-    "accuracy_advantage": 0.12771739130434784,
+    "loss_improvement": -1.9339221119880676,
+    "accuracy_advantage": 0.19429347826086957,
     "sequence_accuracy_advantage": 0.0,
     "learning_speed": {
       "dreamer_50pct_epochs": 0,
@@ -12,13 +12,13 @@
     },
     "final_performance": {
       "dreamer": {
-        "loss": 0.9002779126167297,
-        "character_accuracy": 0.53125,
+        "loss": 0.723080575466156,
+        "character_accuracy": 0.59375,
         "sequence_accuracy": 0.0
       },
       "tabula_rasa": {
-        "loss": 2.637535572052002,
-        "character_accuracy": 0.40353260869565216,
+        "loss": 2.6570026874542236,
+        "character_accuracy": 0.39945652173913043,
         "sequence_accuracy": 0.0
       }
     }
