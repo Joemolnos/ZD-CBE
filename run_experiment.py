@@ -575,8 +575,17 @@ def main():
                        help='Path to saved dream phase metrics pickle')
     parser.add_argument('--skip_dream_phase', action='store_true',
                        help='Skip dream phase and resume from checkpoint')
-    
+    parser.add_argument('--seed', type=int, default=None,
+                       help='Random seed for reproducibility')
+
     args = parser.parse_args()
+
+    # Set random seeds if provided
+    if args.seed is not None:
+        torch.manual_seed(args.seed)
+        np.random.seed(args.seed)
+        import random
+        random.seed(args.seed)
     
     # Default configuration
     config = {
@@ -598,7 +607,8 @@ def main():
         'max_sequence_length': 100,
         'dream_checkpoint': args.dream_checkpoint,
         'dream_metrics_path': args.dream_metrics,
-        'skip_dream_phase': args.skip_dream_phase
+        'skip_dream_phase': args.skip_dream_phase,
+        'seed': args.seed
     }
     
     # Load custom config if provided
