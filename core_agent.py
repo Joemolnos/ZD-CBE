@@ -18,7 +18,7 @@ class VectorQuantizer(nn.Module):
     def forward(self, inputs: torch.Tensor) -> Tuple[torch.Tensor, dict]:
         # Flatten input
         input_shape = inputs.shape
-        flat_input = inputs.view(-1, self.embedding_dim)
+        flat_input = inputs.reshape(-1, self.embedding_dim)
         
         # Calculate distances
         distances = (torch.sum(flat_input**2, dim=1, keepdim=True) 

@@ -1,0 +1,19 @@
+{
+  "dreamer": {
+    "final_loss": 3.5719895362854004,
+    "final_accuracy": 0.1538461595773697,
+    "final_perplexity": 33.63822801892755,
+    "training_time": 0.8493843078613281
+  },
+  "random": {
+    "final_loss": 2.9363315105438232,
+    "final_accuracy": 0.3199999928474426,
+    "final_perplexity": 17.772076354264073,
+    "training_time": 0.8484838008880615
+  },
+  "advantage": {
+    "loss_improvement": -0.6356580257415771,
+    "accuracy_improvement": -0.16615383327007294,
+    "perplexity_improvement": -15.866151664663477
+  }
+}
