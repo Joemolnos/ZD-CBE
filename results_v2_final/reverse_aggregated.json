@@ -1,0 +1,32 @@
+{
+  "task": "reverse",
+  "models": {
+    "random": {
+      "final_accuracy_mean": 0.19632274265658559,
+      "final_accuracy_std": 0.014189325593499447,
+      "convergence_90_mean": -1,
+      "convergence_90_std": 0,
+      "convergence_80_mean": -1,
+      "convergence_80_std": 0,
+      "num_runs": 3
+    },
+    "dreamer": {
+      "final_accuracy_mean": 0.7838783366098078,
+      "final_accuracy_std": 0.023534475106269045,
+      "convergence_90_mean": -1,
+      "convergence_90_std": 0,
+      "convergence_80_mean": 2400.0,
+      "convergence_80_std": 0.0,
+      "num_runs": 3
+    },
+    "dreamer_no_vq": {
+      "final_accuracy_mean": 0.9565063346950119,
+      "final_accuracy_std": 0.058349973259116845,
+      "convergence_90_mean": 1200.0,
+      "convergence_90_std": 400.0,
+      "convergence_80_mean": 800.0,
+      "convergence_80_std": 0.0,
+      "num_runs": 3
+    }
+  }
+}

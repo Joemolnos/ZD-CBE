@@ -1,0 +1,27 @@
+{
+  "task": "addition",
+  "model_type": "random",
+  "seed": 2,
+  "learning_curve": [
+    [
+      800,
+      0.6
+    ],
+    [
+      1600,
+      0.6110083256244219
+    ],
+    [
+      2400,
+      0.41154734411085453
+    ],
+    [
+      3008,
+      0.5902903811252269
+    ]
+  ],
+  "final_accuracy": 0.5902903811252269,
+  "convergence_90": -1,
+  "convergence_80": -1,
+  "convergence_70": -1
+}

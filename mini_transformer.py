@@ -262,6 +262,25 @@ class CoreAgentWithVQ(MiniTransformerWithVQ):
 
         self.hidden_state = None  # For compatibility
 
+    def forward(self, x: torch.Tensor, hidden=None):
+        """Override forward to return 3 values for backwards compatibility"""
+        logits, vq_info = super().forward(x)
+        # Return dummy hidden state for compatibility with old code
+        return logits, None, vq_info
+
+    def generate_next_token(self, x: torch.Tensor, temperature: float = 1.0):
+        """Generate next token (compatibility method)"""
+        logits, _, vq_info = self.forward(x)
+
+        # Apply temperature
+        logits = logits / temperature
+
+        # Sample next token
+        probs = torch.nn.functional.softmax(logits[:, -1, :], dim=-1)
+        next_token = torch.multinomial(probs, num_samples=1)
+
+        return next_token, vq_info
+
     def reset_hidden_state(self):
         """Compatibility method"""
         self.hidden_state = None

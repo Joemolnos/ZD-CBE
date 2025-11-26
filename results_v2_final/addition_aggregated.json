@@ -1,0 +1,32 @@
+{
+  "task": "addition",
+  "models": {
+    "random": {
+      "final_accuracy_mean": 0.6027106043128102,
+      "final_accuracy_std": 0.010540478366309163,
+      "convergence_90_mean": -1,
+      "convergence_90_std": 0,
+      "convergence_80_mean": -1,
+      "convergence_80_std": 0,
+      "num_runs": 3
+    },
+    "dreamer": {
+      "final_accuracy_mean": 0.9325676611793717,
+      "final_accuracy_std": 0.006250117522897,
+      "convergence_90_mean": 800.0,
+      "convergence_90_std": 0.0,
+      "convergence_80_mean": 800.0,
+      "convergence_80_std": 0.0,
+      "num_runs": 3
+    },
+    "dreamer_no_vq": {
+      "final_accuracy_mean": 0.9459909859307872,
+      "final_accuracy_std": 0.0013338525695715884,
+      "convergence_90_mean": 800.0,
+      "convergence_90_std": 0.0,
+      "convergence_80_mean": 800.0,
+      "convergence_80_std": 0.0,
+      "num_runs": 3
+    }
+  }
+}

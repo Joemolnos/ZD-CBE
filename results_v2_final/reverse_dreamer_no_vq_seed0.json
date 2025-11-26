@@ -1,0 +1,27 @@
+{
+  "task": "reverse",
+  "model_type": "dreamer_no_vq",
+  "seed": 0,
+  "learning_curve": [
+    [
+      800,
+      0.9182763744427934
+    ],
+    [
+      1600,
+      0.9240077444336883
+    ],
+    [
+      2400,
+      0.9595755432036382
+    ],
+    [
+      3008,
+      0.996
+    ]
+  ],
+  "final_accuracy": 0.996,
+  "convergence_90": 800,
+  "convergence_80": 800,
+  "convergence_70": 800
+}
