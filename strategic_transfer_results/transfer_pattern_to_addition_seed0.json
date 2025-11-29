@@ -1,0 +1,27 @@
+{
+  "dream_task": "pattern",
+  "finetune_task": "addition",
+  "seed": 0,
+  "learning_curve": [
+    [
+      800,
+      0.9421720733427362
+    ],
+    [
+      1600,
+      0.9338999055712937
+    ],
+    [
+      2400,
+      0.955868544600939
+    ],
+    [
+      3008,
+      0.9484633569739953
+    ]
+  ],
+  "final_accuracy": 0.9484633569739953,
+  "convergence_90": 800,
+  "convergence_80": 800,
+  "convergence_70": 800
+}

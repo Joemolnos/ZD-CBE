@@ -1,0 +1,664 @@
+{
+  "total_experiments": 24,
+  "config": {
+    "vocab_size": 36,
+    "embed_dim": 64,
+    "num_layers": 2,
+    "num_heads": 4,
+    "ff_dim": 256,
+    "num_vq_codes": 32,
+    "use_vq": false,
+    "learning_rate": 0.003,
+    "dropout": 0.1
+  },
+  "results": [
+    {
+      "dream_task": null,
+      "finetune_task": "addition",
+      "seed": 0,
+      "learning_curve": [
+        [
+          800,
+          0.7219127205199629
+        ],
+        [
+          1600,
+          0.8624413145539906
+        ],
+        [
+          2400,
+          0.9060901906090191
+        ],
+        [
+          3008,
+          0.9513232514177694
+        ]
+      ],
+      "final_accuracy": 0.9513232514177694,
+      "convergence_90": 2400,
+      "convergence_80": 1600,
+      "convergence_70": 800
+    },
+    {
+      "dream_task": null,
+      "finetune_task": "reverse",
+      "seed": 0,
+      "learning_curve": [
+        [
+          800,
+          0.5681702990369994
+        ],
+        [
+          1600,
+          0.9046683046683047
+        ],
+        [
+          2400,
+          0.9887144259077527
+        ],
+        [
+          3008,
+          1.0
+        ]
+      ],
+      "final_accuracy": 1.0,
+      "convergence_90": 1600,
+      "convergence_80": 1600,
+      "convergence_70": 1600
+    },
+    {
+      "dream_task": null,
+      "finetune_task": "pattern",
+      "seed": 0,
+      "learning_curve": [
+        [
+          800,
+          0.8592999313658202
+        ],
+        [
+          1600,
+          0.8998579545454546
+        ],
+        [
+          2400,
+          0.9241329479768786
+        ],
+        [
+          3008,
+          0.9142857142857143
+        ]
+      ],
+      "final_accuracy": 0.9142857142857143,
+      "convergence_90": 2400,
+      "convergence_80": 800,
+      "convergence_70": 800
+    },
+    {
+      "dream_task": null,
+      "finetune_task": "sorting",
+      "seed": 0,
+      "learning_curve": [
+        [
+          800,
+          0.5598779557589626
+        ],
+        [
+          1600,
+          0.7402190923317684
+        ],
+        [
+          2400,
+          0.9190140845070423
+        ],
+        [
+          3008,
+          0.9562157935887412
+        ]
+      ],
+      "final_accuracy": 0.9562157935887412,
+      "convergence_90": 2400,
+      "convergence_80": 2400,
+      "convergence_70": 1600
+    },
+    {
+      "dream_task": null,
+      "finetune_task": "parity",
+      "seed": 0,
+      "learning_curve": [
+        [
+          800,
+          0.6579966795794134
+        ],
+        [
+          1600,
+          0.8813654168998322
+        ],
+        [
+          2400,
+          0.9045736871823828
+        ],
+        [
+          3008,
+          0.9075208913649025
+        ]
+      ],
+      "final_accuracy": 0.9075208913649025,
+      "convergence_90": 2400,
+      "convergence_80": 1600,
+      "convergence_70": 1600
+    },
+    {
+      "dream_task": null,
+      "finetune_task": "sequence",
+      "seed": 0,
+      "learning_curve": [
+        [
+          800,
+          0.7813733228097869
+        ],
+        [
+          1600,
+          0.9509727626459143
+        ],
+        [
+          2400,
+          0.9914596273291926
+        ],
+        [
+          3008,
+          0.9827990617670055
+        ]
+      ],
+      "final_accuracy": 0.9827990617670055,
+      "convergence_90": 1600,
+      "convergence_80": 1600,
+      "convergence_70": 800
+    },
+    {
+      "dream_task": "addition",
+      "finetune_task": "addition",
+      "seed": 0,
+      "learning_curve": [
+        [
+          800,
+          0.933953488372093
+        ],
+        [
+          1600,
+          0.948188904172398
+        ],
+        [
+          2400,
+          0.9392082940622055
+        ],
+        [
+          3008,
+          0.9656133828996283
+        ]
+      ],
+      "final_accuracy": 0.9656133828996283,
+      "convergence_90": 800,
+      "convergence_80": 800,
+      "convergence_70": 800
+    },
+    {
+      "dream_task": "reverse",
+      "finetune_task": "reverse",
+      "seed": 0,
+      "learning_curve": [
+        [
+          800,
+          0.9110889110889111
+        ],
+        [
+          1600,
+          0.9641453831041258
+        ],
+        [
+          2400,
+          0.9651741293532339
+        ],
+        [
+          3008,
+          0.9897310513447433
+        ]
+      ],
+      "final_accuracy": 0.9897310513447433,
+      "convergence_90": 800,
+      "convergence_80": 800,
+      "convergence_70": 800
+    },
+    {
+      "dream_task": "pattern",
+      "finetune_task": "pattern",
+      "seed": 0,
+      "learning_curve": [
+        [
+          800,
+          0.9007686932215234
+        ],
+        [
+          1600,
+          0.9502598366740905
+        ],
+        [
+          2400,
+          0.9671787709497207
+        ],
+        [
+          3008,
+          0.9704225352112676
+        ]
+      ],
+      "final_accuracy": 0.9704225352112676,
+      "convergence_90": 800,
+      "convergence_80": 800,
+      "convergence_70": 800
+    },
+    {
+      "dream_task": "sorting",
+      "finetune_task": "sorting",
+      "seed": 0,
+      "learning_curve": [
+        [
+          800,
+          0.9352574102964119
+        ],
+        [
+          1600,
+          0.9651972157772621
+        ],
+        [
+          2400,
+          0.9690566037735849
+        ],
+        [
+          3008,
+          0.9743190661478599
+        ]
+      ],
+      "final_accuracy": 0.9743190661478599,
+      "convergence_90": 800,
+      "convergence_80": 800,
+      "convergence_70": 800
+    },
+    {
+      "dream_task": "parity",
+      "finetune_task": "parity",
+      "seed": 0,
+      "learning_curve": [
+        [
+          800,
+          0.9032825322391559
+        ],
+        [
+          1600,
+          0.9034443817052513
+        ],
+        [
+          2400,
+          0.913594470046083
+        ],
+        [
+          3008,
+          0.9106334841628959
+        ]
+      ],
+      "final_accuracy": 0.9106334841628959,
+      "convergence_90": 800,
+      "convergence_80": 800,
+      "convergence_70": 800
+    },
+    {
+      "dream_task": "sequence",
+      "finetune_task": "sequence",
+      "seed": 0,
+      "learning_curve": [
+        [
+          800,
+          0.8149324861000794
+        ],
+        [
+          1600,
+          0.8893219017926735
+        ],
+        [
+          2400,
+          0.9425649095200629
+        ],
+        [
+          3008,
+          0.9657320872274143
+        ]
+      ],
+      "final_accuracy": 0.9657320872274143,
+      "convergence_90": 2400,
+      "convergence_80": 800,
+      "convergence_70": 800
+    },
+    {
+      "dream_task": "addition",
+      "finetune_task": "parity",
+      "seed": 0,
+      "learning_curve": [
+        [
+          800,
+          0.9050886220697542
+        ],
+        [
+          1600,
+          0.9132231404958677
+        ],
+        [
+          2400,
+          0.9044329303396661
+        ],
+        [
+          3008,
+          0.9094997189432266
+        ]
+      ],
+      "final_accuracy": 0.9094997189432266,
+      "convergence_90": 800,
+      "convergence_80": 800,
+      "convergence_70": 800
+    },
+    {
+      "dream_task": "reverse",
+      "finetune_task": "sorting",
+      "seed": 0,
+      "learning_curve": [
+        [
+          800,
+          0.9180900621118012
+        ],
+        [
+          1600,
+          0.9486089644513137
+        ],
+        [
+          2400,
+          0.9827321565617805
+        ],
+        [
+          3008,
+          0.984789391575663
+        ]
+      ],
+      "final_accuracy": 0.984789391575663,
+      "convergence_90": 800,
+      "convergence_80": 800,
+      "convergence_70": 800
+    },
+    {
+      "dream_task": "pattern",
+      "finetune_task": "sequence",
+      "seed": 0,
+      "learning_curve": [
+        [
+          800,
+          0.8161993769470405
+        ],
+        [
+          1600,
+          0.9040125885129819
+        ],
+        [
+          2400,
+          0.9655712050078247
+        ],
+        [
+          3008,
+          0.956828885400314
+        ]
+      ],
+      "final_accuracy": 0.956828885400314,
+      "convergence_90": 1600,
+      "convergence_80": 800,
+      "convergence_70": 800
+    },
+    {
+      "dream_task": "sorting",
+      "finetune_task": "reverse",
+      "seed": 0,
+      "learning_curve": [
+        [
+          800,
+          0.8889432485322897
+        ],
+        [
+          1600,
+          0.8992878942014242
+        ],
+        [
+          2400,
+          0.9199801192842942
+        ],
+        [
+          3008,
+          0.9606413994169096
+        ]
+      ],
+      "final_accuracy": 0.9606413994169096,
+      "convergence_90": 2400,
+      "convergence_80": 800,
+      "convergence_70": 800
+    },
+    {
+      "dream_task": "parity",
+      "finetune_task": "addition",
+      "seed": 0,
+      "learning_curve": [
+        [
+          800,
+          0.9392393320964749
+        ],
+        [
+          1600,
+          0.9387661141804788
+        ],
+        [
+          2400,
+          0.9398084815321477
+        ],
+        [
+          3008,
+          0.9351198871650211
+        ]
+      ],
+      "final_accuracy": 0.9351198871650211,
+      "convergence_90": 800,
+      "convergence_80": 800,
+      "convergence_70": 800
+    },
+    {
+      "dream_task": "sequence",
+      "finetune_task": "pattern",
+      "seed": 0,
+      "learning_curve": [
+        [
+          800,
+          0.8996539792387543
+        ],
+        [
+          1600,
+          0.9306794783802333
+        ],
+        [
+          2400,
+          0.9671232876712329
+        ],
+        [
+          3008,
+          0.9813084112149533
+        ]
+      ],
+      "final_accuracy": 0.9813084112149533,
+      "convergence_90": 1600,
+      "convergence_80": 800,
+      "convergence_70": 800
+    },
+    {
+      "dream_task": "addition",
+      "finetune_task": "sorting",
+      "seed": 0,
+      "learning_curve": [
+        [
+          800,
+          0.9377862595419847
+        ],
+        [
+          1600,
+          0.9617784711388455
+        ],
+        [
+          2400,
+          0.972671285604311
+        ],
+        [
+          3008,
+          0.9731225296442688
+        ]
+      ],
+      "final_accuracy": 0.9731225296442688,
+      "convergence_90": 800,
+      "convergence_80": 800,
+      "convergence_70": 800
+    },
+    {
+      "dream_task": "reverse",
+      "finetune_task": "pattern",
+      "seed": 0,
+      "learning_curve": [
+        [
+          800,
+          0.8825214899713467
+        ],
+        [
+          1600,
+          0.939875604699378
+        ],
+        [
+          2400,
+          0.9782150386507379
+        ],
+        [
+          3008,
+          0.9764789736279401
+        ]
+      ],
+      "final_accuracy": 0.9764789736279401,
+      "convergence_90": 1600,
+      "convergence_80": 800,
+      "convergence_70": 800
+    },
+    {
+      "dream_task": "parity",
+      "finetune_task": "sorting",
+      "seed": 0,
+      "learning_curve": [
+        [
+          800,
+          0.9262422360248447
+        ],
+        [
+          1600,
+          0.9630350194552529
+        ],
+        [
+          2400,
+          0.969224620303757
+        ],
+        [
+          3008,
+          0.98206106870229
+        ]
+      ],
+      "final_accuracy": 0.98206106870229,
+      "convergence_90": 800,
+      "convergence_80": 800,
+      "convergence_70": 800
+    },
+    {
+      "dream_task": "pattern",
+      "finetune_task": "addition",
+      "seed": 0,
+      "learning_curve": [
+        [
+          800,
+          0.9421720733427362
+        ],
+        [
+          1600,
+          0.9338999055712937
+        ],
+        [
+          2400,
+          0.955868544600939
+        ],
+        [
+          3008,
+          0.9484633569739953
+        ]
+      ],
+      "final_accuracy": 0.9484633569739953,
+      "convergence_90": 800,
+      "convergence_80": 800,
+      "convergence_70": 800
+    },
+    {
+      "dream_task": "sorting",
+      "finetune_task": "parity",
+      "seed": 0,
+      "learning_curve": [
+        [
+          800,
+          0.9082468596395412
+        ],
+        [
+          1600,
+          0.9075963718820862
+        ],
+        [
+          2400,
+          0.9108635097493036
+        ],
+        [
+          3008,
+          0.9065315315315315
+        ]
+      ],
+      "final_accuracy": 0.9065315315315315,
+      "convergence_90": 800,
+      "convergence_80": 800,
+      "convergence_70": 800
+    },
+    {
+      "dream_task": "sequence",
+      "finetune_task": "reverse",
+      "seed": 0,
+      "learning_curve": [
+        [
+          800,
+          0.9182547642928787
+        ],
+        [
+          1600,
+          0.9960975609756098
+        ],
+        [
+          2400,
+          0.9990074441687344
+        ],
+        [
+          3008,
+          1.0
+        ]
+      ],
+      "final_accuracy": 1.0,
+      "convergence_90": 800,
+      "convergence_80": 800,
+      "convergence_70": 800
+    }
+  ]
+}

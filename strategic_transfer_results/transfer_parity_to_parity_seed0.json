@@ -1,0 +1,27 @@
+{
+  "dream_task": "parity",
+  "finetune_task": "parity",
+  "seed": 0,
+  "learning_curve": [
+    [
+      800,
+      0.9032825322391559
+    ],
+    [
+      1600,
+      0.9034443817052513
+    ],
+    [
+      2400,
+      0.913594470046083
+    ],
+    [
+      3008,
+      0.9106334841628959
+    ]
+  ],
+  "final_accuracy": 0.9106334841628959,
+  "convergence_90": 800,
+  "convergence_80": 800,
+  "convergence_70": 800
+}

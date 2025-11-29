@@ -1,0 +1,27 @@
+{
+  "dream_task": "reverse",
+  "finetune_task": "reverse",
+  "seed": 0,
+  "learning_curve": [
+    [
+      800,
+      0.9110889110889111
+    ],
+    [
+      1600,
+      0.9641453831041258
+    ],
+    [
+      2400,
+      0.9651741293532339
+    ],
+    [
+      3008,
+      0.9897310513447433
+    ]
+  ],
+  "final_accuracy": 0.9897310513447433,
+  "convergence_90": 800,
+  "convergence_80": 800,
+  "convergence_70": 800
+}

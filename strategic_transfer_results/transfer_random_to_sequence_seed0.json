@@ -1,0 +1,27 @@
+{
+  "dream_task": null,
+  "finetune_task": "sequence",
+  "seed": 0,
+  "learning_curve": [
+    [
+      800,
+      0.7813733228097869
+    ],
+    [
+      1600,
+      0.9509727626459143
+    ],
+    [
+      2400,
+      0.9914596273291926
+    ],
+    [
+      3008,
+      0.9827990617670055
+    ]
+  ],
+  "final_accuracy": 0.9827990617670055,
+  "convergence_90": 1600,
+  "convergence_80": 1600,
+  "convergence_70": 800
+}

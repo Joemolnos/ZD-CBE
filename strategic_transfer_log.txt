@@ -1,0 +1,140 @@
+======================================================================
+STRATEGIC TRANSFER MATRIX
+======================================================================
+Running 24 key experiments:
+  - 6 diagonal (dream → same task)
+  - 6 baseline (random → task)
+  - 12 off-diagonal (selected cross-task)
+======================================================================
+
+======================================================================
+PHASE 1: BASELINE (Random → Task)
+======================================================================
+
+[1/24] Random → addition
+
+Training: Dream(random) → Finetune(addition)
+
+[2/24] Random → reverse
+
+Training: Dream(random) → Finetune(reverse)
+
+[3/24] Random → pattern
+
+Training: Dream(random) → Finetune(pattern)
+
+[4/24] Random → sorting
+
+Training: Dream(random) → Finetune(sorting)
+
+[5/24] Random → parity
+
+Training: Dream(random) → Finetune(parity)
+
+[6/24] Random → sequence
+
+Training: Dream(random) → Finetune(sequence)
+
+======================================================================
+PHASE 2: DIAGONAL (Dream → Same Task)
+======================================================================
+
+[7/24] addition → addition
+✓ Loaded dreamer weights from addition
+
+Training: Dream(addition) → Finetune(addition)
+
+[8/24] reverse → reverse
+✓ Loaded dreamer weights from reverse
+
+Training: Dream(reverse) → Finetune(reverse)
+
+[9/24] pattern → pattern
+✓ Loaded dreamer weights from pattern
+
+Training: Dream(pattern) → Finetune(pattern)
+
+[10/24] sorting → sorting
+✓ Loaded dreamer weights from sorting
+
+Training: Dream(sorting) → Finetune(sorting)
+
+[11/24] parity → parity
+✓ Loaded dreamer weights from parity
+
+Training: Dream(parity) → Finetune(parity)
+
+[12/24] sequence → sequence
+✓ Loaded dreamer weights from sequence
+
+Training: Dream(sequence) → Finetune(sequence)
+
+======================================================================
+PHASE 3: OFF-DIAGONAL (Selected Cross-Task)
+======================================================================
+
+[13/24] addition → parity
+✓ Loaded dreamer weights from addition
+
+Training: Dream(addition) → Finetune(parity)
+
+[14/24] reverse → sorting
+✓ Loaded dreamer weights from reverse
+
+Training: Dream(reverse) → Finetune(sorting)
+
+[15/24] pattern → sequence
+✓ Loaded dreamer weights from pattern
+
+Training: Dream(pattern) → Finetune(sequence)
+
+[16/24] sorting → reverse
+✓ Loaded dreamer weights from sorting
+
+Training: Dream(sorting) → Finetune(reverse)
+
+[17/24] parity → addition
+✓ Loaded dreamer weights from parity
+
+Training: Dream(parity) → Finetune(addition)
+
+[18/24] sequence → pattern
+✓ Loaded dreamer weights from sequence
+
+Training: Dream(sequence) → Finetune(pattern)
+
+[19/24] addition → sorting
+✓ Loaded dreamer weights from addition
+
+Training: Dream(addition) → Finetune(sorting)
+
+[20/24] reverse → pattern
+✓ Loaded dreamer weights from reverse
+
+Training: Dream(reverse) → Finetune(pattern)
+
+[21/24] parity → sorting
+✓ Loaded dreamer weights from parity
+
+Training: Dream(parity) → Finetune(sorting)
+
+[22/24] pattern → addition
+✓ Loaded dreamer weights from pattern
+
+Training: Dream(pattern) → Finetune(addition)
+
+[23/24] sorting → parity
+✓ Loaded dreamer weights from sorting
+
+Training: Dream(sorting) → Finetune(parity)
+
+[24/24] sequence → reverse
+✓ Loaded dreamer weights from sequence
+
+Training: Dream(sequence) → Finetune(reverse)
+
+======================================================================
+✅ STRATEGIC TRANSFER COMPLETED
+Total experiments: 24
+Results saved to: strategic_transfer_results
+======================================================================
